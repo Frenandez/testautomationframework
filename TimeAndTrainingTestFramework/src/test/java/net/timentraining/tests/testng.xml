@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+   
+<suite name="Suite1" verbose="1" parallel="tests"  thread-count="2" >
+  <test name="set1" >
+    <classes>
+       <class name="net.sits.tests.Login" />
+    </classes>
+  </test>
+ <test name="set2" >
+    <classes>
+       <class name="net.sits.tests.Login2" />
+    </classes>
+  </test>
+</suite>
